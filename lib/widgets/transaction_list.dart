@@ -18,7 +18,9 @@ class TransactionList extends StatelessWidget {
                 Text(
                   'No transactions added yet.',
                 ),
-                SizedBox(height: 20,),
+                SizedBox(
+                  height: 20,
+                ),
                 Container(
                   height: 200,
                   child: Image.asset(
